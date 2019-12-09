@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/f372baa151.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/homeStyle.css">
+    <link rel="stylesheet" href="../css/consultation.css">
     <link rel="stylesheet" href="../js/in.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
 
-    <title>Hospital Web Site</title>
+    <title>CUREME</title>
 </head>
 <body>
 <div>
@@ -40,72 +40,6 @@
             <a class="nav-link " href="faq.html">FAQ</a>
         </li>
     </ul>
-</div>
-<div class="info">
-    <img class="main1" src="https://static.wixstatic.com/media/c4832409f40a465eb9c7f110ec972872.jpg/v1/fill/w_1235,h_572,al_c,q_85,usm_0.66_1.00_0.01/Chart%20%26%20Stethoscope.webp" alt="Medicals" width="850">
-    <p><span class="w1">WELCOME TO CURE ME <br> HOSPITAL </span>
-        <p class="txt1"> <b>Your Health Matters</b>
-    <br>​Cure Me Hospital has been keeping Bishkek healthy since 2019.
-    We offer our patients quality health care in a family-friendly environment.
-    At Cure Me Hospital, your health is our number one priority.
-    We invite you to find out more about our Hospital, our staff, and the various services that we provide.</p>
-        <button class="btn1"><a href="faq.html" style="color: #000;">Learn more</a> </button>
-</div>
-<div class="info">
-<p class="w2"> WIDE RANGE OF SERVICES</p>
-    <h6 class="txt2">Personalized Care</h6>
-    <div class="cards">
-        <div class="card" style="width: 26rem;">
-        <img src="../img/lab.jpg" class="card-img-top" height="260" alt="lab">
-        <div class="card-body">
-            <p class="card-text">LABORATORY & DIAGNOSTIC PROCEDURE <br>
-                <br>
-                Here For You</p>
-
-        </div>
-    </div>
-        <div class="card" style="width: 26rem; margin-left: 30px;">
-            <img src="../img/nurs.jpg" class="card-img-top" height="260" alt="nursing">
-            <div class="card-body">
-                <p class="card-text">NURSING SERVICES  <br> <br>
-                    Quality Care</p>
-            </div>
-        </div>
-        <div class="card" style="width: 26rem; margin-left: 30px;">
-            <img src="../img/puff.jpg" class="card-img-top" height="260" alt="puff">
-            <div class="card-body">
-                <p class="card-text">ACCOMMODATION<br> <br>
-                    A Happier, Healthier You</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="info">
-    <p class="w2">OUR FACULTIES</p>
-    <p class="txt1">We’ve designed our facilities with your care and comfort in mind.
-        We want all of our patients and visitors to feel safe and comfortable when stepping foot in our hospital.
-       Cure Me Hospital was built using only the highest principles of medical care, and the results have been truly noteworthy.</p>
-   <div class="cards">
-       <div class="card" style="background-image: url(../img/surgery.jpg); width: 26rem; height: 399px">
-           <div class="txt3">
-               <p >OPERATING ROOMS </p>
-               <button class="btn2"> Learn more</button>
-           </div>
-       </div>
-       <div class="card" style="background-image:url(../img/waiting.jpg);width: 26rem; height: 399px; margin-left: 30px;">
-           <div class="txt3">
-               <p >WAITING AREAS </p>
-               <button class="btn2"> Learn more</button>
-           </div>
-       </div>
-       <div class="card" style="background-image:url(../img/therd.jpg);width: 26rem; height: 399px; margin-left: 30px; ">
-           <div class="txt3">
-               <p > LONG TERM ROOMS </p>
-               <button class="btn2"> Learn more</button>
-           </div>
-       </div>
-   </div>
-
 </div>
 <div class="contactUs">
     <div class="row">
@@ -165,6 +99,21 @@
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label for="doctor-input" class="col-3 form-control-label">Doctor</label>
+                        <div class="col-8">
+                            <select class="form-control" id="doctor-input">
+                                <option>Neuropotologist</option>
+                                <option>ENT</option>
+                                <option>Gynecologist</option>
+                                <option>Urologist</option>
+                                <option>Ophthalmologist</option>
+                                <option>Traumatologist</option>
+                                <option>Plastic Surgeon</option>
+                                <option>Pediatr</option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <div class="form-group row">
                             <label for="exampleTextarea" class="col-3 col-form-label">Your Message</label>
@@ -186,6 +135,9 @@
         </div>
     </div>
 </div>
+
+
+
 
 <div class="footer">
     <div style="color: black; font-size: 30px;">CUREME</div>
