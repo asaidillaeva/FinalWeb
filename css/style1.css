@@ -10,7 +10,7 @@
 
 .info{
     text-align: center;
-    margin: 50px 50px 70px;
+    margin: 50px 77px;
 }
 .w1{
     margin-top: 50px;
@@ -59,13 +59,12 @@
     display: inline-flex;
 }
 .txt3{
-    font-size: 15px;
+    font-size: 20px;!important;
     color: #fff;
     padding-top: 140px; !important;
     /*position: center; !important;*/
 }
 .btn2{
-    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;;
     background: transparent;
     border-radius: 100px;
@@ -77,5 +76,42 @@
 .btn2:hover{
     background-color: #fff;
     color: #000;
+}
+.row{
+    background-color: #0fd1aa;
+}
+.contactUs{
+    text-align: center;
+    margin: 50px 90px;
+}
+.txt4{
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.form{
+    margin: 30px;
+}
+label{
+    color: #fff;
+    font-size: 15px;
+}
+.help-block {
+    color: red;
+}
+
+.form-group.has-error.has-danger .form-control-label {
+    color: red;
+}
+
+.form-group.has-error.has-danger .form-control {
+    border: 1px solid red;
+    box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18);
+}
+.footer{
+    text-align: center;
+    margin: 50px 77px;
+    position: center;
 }
 

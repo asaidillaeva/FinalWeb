@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/f372baa151.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../js/in.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+
     <title>Hospital Web Site</title>
 </head>
 <body>
@@ -34,9 +41,8 @@
         </li>
     </ul>
 </div>
-
 <div class="info">
-    <img class="main1" src="../img/mainImg.jpg" alt="Medicals" width="850">
+    <img class="main1" src="https://static.wixstatic.com/media/c4832409f40a465eb9c7f110ec972872.jpg/v1/fill/w_1235,h_572,al_c,q_85,usm_0.66_1.00_0.01/Chart%20%26%20Stethoscope.webp" alt="Medicals" width="850">
     <p><span class="w1">WELCOME TO CURE ME <br> HOSPITAL </span>
         <p class="txt1"> <b>Your Health Matters</b>
     <br>​Cure Me Hospital has been keeping Bishkek healthy since 2019.
@@ -80,26 +86,111 @@
         We want all of our patients and visitors to feel safe and comfortable when stepping foot in our hospital.
        Cure Me Hospital was built using only the highest principles of medical care, and the results have been truly noteworthy.</p>
    <div class="cards">
-       <div class="card" style="background-image: url(../img/surgery.jpg); width: 307px; height: 399px">
+       <div class="card" style="background-image: url(../img/surgery.jpg); width: 26rem; height: 399px">
            <div class="txt3">
-               <p ><b>OPERATING ROOMS</b> </p>
+               <p >OPERATING ROOMS </p>
                <button class="btn2"> Learn more</button>
            </div>
        </div>
-       <div class="card" style="background-image:url(../img/waiting.jpg);width: 307px; height: 399px; margin-left: 30px;">
+       <div class="card" style="background-image:url(../img/waiting.jpg);width: 26rem; height: 399px; margin-left: 30px;">
            <div class="txt3">
-               <p ><b>WAITING AREAS</b> </p>
+               <p >WAITING AREAS </p>
                <button class="btn2"> Learn more</button>
            </div>
        </div>
-       <div class="card" style="background-image:url(../img/therd.jpg);width: 307px; height: 399px; margin-left: 30px; ">
+       <div class="card" style="background-image:url(../img/therd.jpg);width: 26rem; height: 399px; margin-left: 30px; ">
            <div class="txt3">
-               <p ><b>LONG TERM ROOMS</b> </p>
+               <p > LONG TERM ROOMS </p>
                <button class="btn2"> Learn more</button>
            </div>
        </div>
    </div>
 
+</div>
+<div class="contactUs">
+    <div class="row">
+        <div class="col-6">
+            <div>
+                <h2 class="txt4" style="font-size: 40px;" >CONTACT US</h2>
+            </div>
+            <div>
+                <p class="txt4" >In sickness and in health, we’re here for you and your loved ones.
+                    <br> Contact us today.</p>
+            </div>
+            <div>
+                <p class="txt4" >Kyrgyzstan, Bishkek</p>
+            </div>
+            <div>
+                <p class="txt4" >
+                    aliyasaidillaeva1@gmail.com
+                </p>
+            </div>
+            <div>
+                <p class="txt4"> +996708771864</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/aliya_saidillaeva/" style="color: #fff"> <i class="fab fa-instagram"></i> </a>
+                <a href="#" style="color: #fff"> <i class="fab fa-facebook-square"></i></a>
+                <a href="#" style="color: #fff"><i class="fab fa-twitter-square"></i></a>
+            </div>
+        </div>
+        <div  class="col-6" >
+            <div >
+                <form class="form" data-toggle="validator" role="form" id="userForm">
+                    <div class="form-group row">
+                        <label for="inputFirstName" class=" col-3 form-control-label">First name</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="inputFirstName" value="" required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputLastName" class=" col-3 form-control-label">Last name</label>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="inputLastName" value="" required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPhone" class="col-3 form-control-label">Phone number</label>
+                        <div class="col-8">
+                            <input type="tel" class="form-control" id="inputPhone" pattern="\d{3}\-\d{3}\-\d{3}" value="XXX-XXX-XXX" data-inputmask="'mask  ': '999-999-999'" required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-3 form-control-label ">Email address</label>
+                        <div class="col-8">
+                            <input type="email" class="form-control" id="inputEmail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" value="">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group row">
+                            <label for="exampleTextarea" class="col-3 col-form-label">Your Message</label>
+                            <div class="col-8">
+                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="date-input" class="col-3 col-form-label">Date</label>
+                        <div class="col-8">
+                            <input class="form-control" type="date" value="XXX-XX-XX-XX" id="date-input">
+                        </div>
+                    </div>
+                    <button type="submit" style="background-color: #fff; color: #0fd1aa " class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div style="color: black; font-size: 30px;">CUREME</div>
+    <div style="font-size: 20px; color: #000; position: center; margin-left: 30px;">Contact &nbsp;<p> aliyasaidillaeva1@gmail.com</p></div>
+    <div style="font-size: 15px; position: center;"> <span>©2019 by HospitalWeb Aliia Saidillaeva</span></div>
 </div>
 </body>
 </html>
