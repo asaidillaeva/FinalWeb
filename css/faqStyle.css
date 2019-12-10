@@ -3,7 +3,25 @@
     left: 10px;
     margin:  15px 15px;
 }
-
+.txtMain{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #6165FA;
+    text-align: center;
+}
+.div1{
+    margin: 50px 240px;
+    display: inline-flex;
+}
+.section{
+    margin-left: 40px;
+    display: inline-block;
+    width: 45%;
+}
+.topic{
+    font-size: 20px;
+    color: #6165FA;
+}
 
 
 
