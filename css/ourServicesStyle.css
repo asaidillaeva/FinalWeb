@@ -3,7 +3,21 @@
     left: 10px;
     margin:  15px 15px;
 }
-
+.lab{
+    background-image: url(../img/laboratory3.jpg) ;
+    background-repeat: no-repeat;
+    position: center; !important;
+    margin-top: 40px;
+    height: 844px;
+}
+.txt{
+    color: #fff;
+    width: 100%;
+    margin-top: 400px;
+    text-align: center;
+    position: center;
+    display: inline-block;
+}
 .footer{
     text-align: center;
     margin: 50px 77px;
