@@ -8,6 +8,9 @@
     position: center; !important;
     height: 844px;
 }
+.nav-link{
+    font-size: 25px;
+}
 .txt{
     color: #fff;
     width: 100%;

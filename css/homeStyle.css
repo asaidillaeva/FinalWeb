@@ -74,6 +74,9 @@
 .form{
     margin: 30px;
 }
+.nav-link{
+    font-size: 25px;
+}
 label{
     color: #fff;
     font-size: 20px;

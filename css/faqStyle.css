@@ -9,6 +9,9 @@
     color: #6165FA;
     text-align: center;
 }
+.nav-link{
+    font-size: 25px;
+}
 .div1{
     margin: 50px 50px;
     display: inline-flex;
