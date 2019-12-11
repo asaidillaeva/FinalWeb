@@ -93,13 +93,12 @@
                <p >WAITING AREAS </p>
            </div>
        </div>
-       <div class="card" style="background-image:url(../img/therd.jpg);width: 26rem; height: 399px; margin-left: 30px; ">
+       <div class="card" style="background-image:url(../img/third.jpg);width: 26rem; height: 399px; margin-left: 30px; ">
            <div class="txt3">
                <p > LONG TERM ROOMS </p>
            </div>
        </div>
    </div>
-
 </div>
 <div class="contactUs">
     <div class="row">
@@ -130,25 +129,25 @@
         </div>
         <div  class="col-6" >
             <div >
-                <form class="form" data-toggle="validator" role="form" id="userForm">
+                <form class="form" id="userForm" data-toggle="validator" action="mailto:aliyasaidillaeva1@gmail.com" method="post" enctype="text/plain" >
                     <div class="form-group row">
                         <label for="inputFirstName" class=" col-3 form-control-label">First name</label>
                         <div class="col-8">
-                            <input type="text" class="form-control" id="inputFirstName" value="" required>
+                            <input type="text" class="form-control" id="inputFirstName" pattern="[A-Za-z]{3,32}" value="" required>
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="inputLastName" class=" col-3 form-control-label">Last name</label>
                         <div class="col-8">
-                            <input type="text" class="form-control" id="inputLastName" value="" required>
-                            <div class="help-block with-errors"></div>
+                            <input type="text" class="form-control" id="inputLastName" pattern="[A-Za-z]{3,32}"  value="" required>
+                            <div class="help-block with-errors" ></div>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="inputPhone" class="col-3 form-control-label">Phone number</label>
                         <div class="col-8">
-                            <input type="tel" class="form-control" id="inputPhone" pattern="\d{3}\-\d{3}\-\d{3}" value="XXX-XXX-XXX" data-inputmask="'mask  ': '999-999-999'" required>
+                            <input type="tel" class="form-control" id="inputPhone" pattern="[0-9]{10}" value="" required>
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -163,14 +162,14 @@
                         <label for="doctor-input" class="col-3 form-control-label">Doctor</label>
                         <div class="col-8">
                             <select class="form-control" id="doctor-input">
-                                <option>Neuropotologist</option>
+                                <option>Neurologists</option>
                                 <option>ENT</option>
                                 <option>Gynecologist</option>
                                 <option>Urologist</option>
                                 <option>Ophthalmologist</option>
                                 <option>Traumatologist</option>
                                 <option>Plastic Surgeon</option>
-                                <option>Pediatr</option>
+                                <option>Pediatric</option>
                             </select>
                         </div>
                     </div>
@@ -183,17 +182,17 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="date-input" class="col-3 col-form-label">Date</label>
+                        <label for="MyDatePicker" class="col-3 col-form-label">Date</label>
                         <div class="col-8">
-                            <input class="form-control" type="date" value="XXX-XX-XX-XX" id="date-input">
+                            <input class="form-control" type="date" value="" min="" max="" id="MyDatePicker">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="example-time-input" class="col-3 col-form-label">Time</label>
                         <div class="col-8">
-                            <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                            <input class="form-control" type="time"  min="09:00 AM" max="06:00 PM" id="example-time-input">
                         </div>
-                        <button type="submit" style="background-color: #fff; color: #0fd1aa; margin: 15px 340px " class="btn btn-primary">Make An Aappointment</button>
+                        <button type="submit" style="background-color: #fff; color: #0fd1aa; margin: 15px 340px " class="btn btn-primary">Make An Appointment</button>
                     </div>
                 </form>
             </div>
