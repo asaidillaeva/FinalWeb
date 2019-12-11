@@ -38,7 +38,7 @@
     margin: 50px 90px;
 }
 .txt4{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 30px;
     text-align: center;
     color: #fff;
@@ -48,7 +48,7 @@
 }
 label{
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
 }
 .help-block {
     color: red;
@@ -65,6 +65,5 @@ label{
 .footer{
     text-align: center;
     margin: 50px 77px;
-    position: center;
 }
 

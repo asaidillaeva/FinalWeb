@@ -5,28 +5,19 @@
 }
 .doctors{
     display: inline-flex;
-    margin: 15px 47px;
-    position: center;
+    margin: 15px;
 }
-.card-img-top{
-    height: 300px;
+.card-text{
+    font-size: 20px;
 }
+.mainDiv{
+    height: 100vh;
+}
+
 .card{
     margin-left: 20px;
-    width: 319px;
 }
 
-.backDiv{
-    margin-top: 40px ;
-    height: 600px;
-    background-image: url(https://static.designboom.com/wp-content/uploads/2013/08/BIG-shortlisted-to-design-denmarks-biggest-hospital-designboom-15.jpg);
-
-}
-.backDiv2{
-    margin: 40px 10px;
-}
 .footer{
     text-align: center;
-    margin: 50px 77px;
-    position: center;
 }

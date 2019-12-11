@@ -6,7 +6,6 @@
 .nav-link{
     color: #1290cb;
 }
-
 .info{
     text-align: center;
     margin: 50px 77px;
@@ -18,29 +17,14 @@
     font-size: 60px;
 }
 .txt1{
-    font-family: Arial, Helvetica, sans-serif;;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
-    margin: 50px 250px;
  }
-.btn1{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;;
-    background: transparent;
-    border-radius: 100px;
-    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-    border: solid rgba(97, 101, 250, 1) 1px;
-    cursor: pointer !important;
-    position: center;
-}
-.btn1:hover{
-    background-color: blueviolet;
-    color: white;
-}
 .w2{
     color: #6165FA;
-    font-size: 40px;
+    font-size: 50px;
 }
 .txt2{
     font-family: Arial, Helvetica, sans-serif;;
@@ -58,17 +42,16 @@
     display: inline-flex;
 }
 .txt3{
-    font-size: 20px;!important;
+    font-size: 20px;
     color: #fff;
-    padding-top: 140px; !important;
+    padding-top: 140px;
 }
 .btn2{
     font-family: Arial, Helvetica, sans-serif;;
     background: transparent;
     border-radius: 100px;
     border: solid 1px;
-    cursor: pointer !important;
-    position: center;
+    cursor: pointer;
     color: #fff;
 }
 .btn2:hover{
@@ -83,7 +66,7 @@
     margin: 50px 90px;
 }
 .txt4{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 30px;
     text-align: center;
     color: #fff;
@@ -93,7 +76,7 @@
 }
 label{
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
 }
 .help-block {
     color: red;
@@ -110,6 +93,4 @@ label{
 .footer{
     text-align: center;
     margin: 50px 77px;
-    position: center;
 }
-
